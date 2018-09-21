@@ -1,7 +1,22 @@
-basic.showLeds(`
-    . . . . .
-    . # . # .
-    . . . . .
-    # . . . #
-    . # # # .
-    `);
+/**
+ * Types of micro network control
+ */
+enum MN_JoinMethod {
+	//% block="Manual"
+	MN_Manual,
+	//% block="Auto"
+	MN_Auto
+}
+
+/**
+ * microet control package
+ */
+//% color=#ff0000 weight=100 icon="\uf1d9" block="micro net"
+namespace micronet {
+	// Declare the host
+	//% blockId=micronet_host_declare
+	//% block="Declare the host micro:bit"
+	export function host_declare(): void {
+		return true;
+	}
+}

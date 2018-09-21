@@ -1,0 +1,4 @@
+{
+  "micronet": "micro:bitで小さなネットワークを作るためのパッケージ"
+  ,"micronet.host_declare|block": "ホストになるmicrp:bitを決める"
+}
