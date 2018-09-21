@@ -14,7 +14,7 @@ enum MN_JoinMethod {
 //% color=#ff0000 weight=100 icon="\uf1d9" block="micro net"
 namespace micronet {
 	// Declare the host
-	//% blockId=micronet_host_declare
+	//% blockId=host_declare
 	//% block="Declare the host micro:bit"
 	export function host_declare(): void {
 		return true;
