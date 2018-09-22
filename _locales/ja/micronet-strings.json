@@ -1,3 +1,4 @@
 {
   "micronet.host_declare|block": "ホストになるmicrp:bitを決める"
+  ,"micronet.join_network|block": "ネットワークに参加する"
 }
