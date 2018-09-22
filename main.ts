@@ -19,8 +19,8 @@ namespace micronet {
 	export function host_declare(): void {
 	}
 	// Send request
-	//% blockId=host_declare
-	//% block="Declare the host micro:bit"
+	//% blockId=join_network
+	//% block="Join network with name"
 	export function join_network(): void {
 		radio.sendString(control.deviceName());
 	}
