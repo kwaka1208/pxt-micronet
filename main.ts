@@ -22,6 +22,6 @@ namespace micronet {
 	//% blockId=join_network
 	//% block="Join network with name"
 	export function join_network(): void {
-		radio.sendString(control.deviceName());
+		// radio.sendString(control.deviceName());
 	}
 }
